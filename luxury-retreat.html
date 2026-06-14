@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Retreat | The Old Rectory | Holt Accommodation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="luxury-retreat-page">
+
+    <header id="header" class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Holt Accommodation Logo">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="aboutus.html" class="nav-link">About Us</a></li>
+                    <li><a href="meettheteam.html" class="nav-link">Meet The Team</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="staywithus.html" class="nav-link active" aria-haspopup="true" aria-expanded="false">Stay With Us</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="corporatestays.html" class="nav-dropdown-link">Corporate Stays</a></li>
+                            <li><a href="homefromhome.html" class="nav-dropdown-link">Home From Home</a></li>
+                            <li><a href="luxury-retreat.html" class="nav-dropdown-link">Luxury Retreat</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="contactus.html" class="nav-link smooth-scroll">Contact Us</a></li>
+                </ul>
+                <a href="contactus.html" class="btn btn-olive mobile-enquire btn-pan-hover"><span>Get In Touch</span></a>
+            </nav>
+
+            <div class="header-right">
+                <a href="contactus.html" class="btn btn-olive desktop-enquire btn-pan-hover"><span>Get In Touch</span></a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============================================================
+             HERO
+             ============================================================ -->
+        <section class="oldrectory-hero">
+            <div class="oldrectory-hero-bg-wrapper">
+                <img
+                    src="assets/images/hero-oldrectory.jpeg"
+                    onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                    alt="Aerial view of The Old Rectory luxury countryside property"
+                    class="oldrectory-hero-bg">
+            </div>
+            <div class="oldrectory-hero-overlay"></div>
+
+            <div class="container oldrectory-hero-container">
+                <div class="oldrectory-hero-content fade-in">
+                    <h1 class="oldrectory-hero-title">Luxury Stays<br>at Old Rectory</h1>
+                    <p class="oldrectory-hero-sub">Curated country accommodation<br>for a luxury escape.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             INTRO
+             ============================================================ -->
+        <section class="oldrectory-intro">
+            <div class="container oldrectory-intro-grid">
+
+                <!-- LEFT: editorial text -->
+                <div class="oldrectory-intro-text js-reveal stagger-1">
+                    
+                    <span class="oldrectory-rule" aria-hidden="true"></span>
+
+                    <h2 class="oldrectory-heading">The Old Rectory</h2>
+
+                    <p class="oldrectory-paragraph">The Old Rectory is a place to slow down, gather people together, and enjoy time away from the demands of everyday life. Whether it&rsquo;s a family break, a big celebration, or a few days of rest and peace, it offers a setting that feels both special and relaxed.</p>
+
+                    <p class="oldrectory-paragraph">Set within a beautifully restored 1886 Arts &amp; Crafts property, the house has been carefully designed to balance character with comfort. Original features sit alongside modern touches, creating a space that feels considered without being formal.</p>
+                </div>
+
+                <!-- RIGHT: framed image slider -->
+                <div class="oldrectory-intro-media js-reveal stagger-2">
+                    <div class="oldrectory-frame">
+                        <div class="oldrectory-gallery">
+                            <!-- Replace these three image paths with the final Old Rectory images when ready. -->
+                            <img
+                                src="assets/images/old-rectory.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                                alt="The Old Rectory exterior and grounds"
+                                class="oldrectory-gallery-slide is-active">
+                            <img
+                                src="assets/images/old-rectory-door.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-36.jpg';"
+                                alt="The Old Rectory gardens and pool"
+                                class="oldrectory-gallery-slide">
+                            <img
+                                src="assets/images/old-rectory-fireplace.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-7.jpg';"
+                                alt="The Old Rectory interior detail"
+                                class="oldrectory-gallery-slide">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================================
+             GUEST EXPERIENCES
+             ============================================================ -->
+        <section class="oldrectory-guest-experiences js-reveal" aria-labelledby="oldrectory-guest-experiences-title">
+            <div class="container">
+
+                <div class="guest-experiences-grid guest-experiences-grid--swapped">
+
+                    <!-- RIGHT: verified Airbnb review card -->
+                    <div class="guest-experiences-review-card js-reveal stagger-1">
+
+                        <div class="guest-experiences-verification">
+                            <!-- Circular reviewer profile image (pulled from reviews folder) -->
+                            <span class="guest-review-profile">
+                                <img
+                                    src="assets/images/reviews/airbnb.png"
+                                    onerror="this.onerror=null;this.src='assets/images/reviews/Vic.png';"
+                                    alt="Verified Airbnb guest profile">
+                            </span>
+                            <span class="guest-experiences-airbnb-mark" aria-hidden="true">
+                                <!-- Inline Airbnb mark (B&eacute;lo) -->
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor" d="M22.515 15.198c-.075-.18-.15-.345-.21-.495l-.03-.075c-.225-.51-.465-1.02-.69-1.5l-.03-.06-.015-.045c-1.59-3.435-3.27-6.915-5.055-10.32l-.075-.135c-.18-.345-.36-.705-.555-1.065-.24-.42-.495-.87-.87-1.305C13.755.51 12.93.075 12 .075c-.945 0-1.755.435-2.49 1.215-.36.435-.63.885-.87 1.305-.195.36-.375.72-.555 1.065l-.075.135C6.225 7.2 4.545 10.68 2.955 14.115l-.015.03-.03.075c-.225.48-.465.99-.69 1.5l-.03.075c-.06.15-.135.3-.21.495-.195.51-.39 1.05-.51 1.62-.255 1.215-.075 2.4.495 3.405.585 1.005 1.5 1.71 2.595 1.98.27.06.555.105.84.105.075 0 .165 0 .24-.015.825-.045 1.665-.315 2.475-.81.99-.6 1.95-1.5 3.03-2.79 1.08 1.29 2.055 2.19 3.03 2.79.81.495 1.65.765 2.475.81.075.015.165.015.24.015.285 0 .57-.045.84-.105 1.095-.27 2.025-.975 2.595-1.98.585-1.005.75-2.19.495-3.405-.12-.57-.315-1.11-.51-1.62zm-10.5 1.215c-.66-.825-1.08-1.605-1.23-2.265-.06-.285-.075-.54-.045-.765.03-.195.105-.36.21-.51.225-.315.615-.495 1.065-.495.45 0 .855.18 1.065.495.105.15.18.315.21.51.03.225.015.495-.045.765-.15.645-.57 1.425-1.23 2.265zm9.21 1.71c-.39.69-1.005 1.155-1.755 1.335-.75.18-1.59.045-2.43-.39-.81-.435-1.65-1.245-2.595-2.4.93-1.155 1.59-2.235 1.83-3.21.12-.495.135-.945.075-1.38-.075-.435-.225-.825-.465-1.155-.51-.72-1.32-1.125-2.235-1.125s-1.725.42-2.235 1.125c-.24.33-.39.72-.465 1.155-.06.435-.045.885.075 1.38.24.975.9 2.07 1.83 3.225-.945 1.14-1.785 1.95-2.595 2.385-.84.435-1.68.57-2.43.39-.75-.18-1.365-.645-1.755-1.335-.36-.63-.465-1.395-.285-2.235.09-.435.255-.9.435-1.365l.03-.075c.06-.15.12-.285.18-.42l.03-.075c.21-.48.45-.975.675-1.455l.015-.045.03-.06c1.575-3.405 3.24-6.855 5.01-10.23l.075-.135c.165-.33.345-.66.51-.975.195-.345.405-.705.69-1.035.42-.495.93-.78 1.5-.78.57 0 1.08.285 1.5.78.285.33.495.69.69 1.035.165.315.345.645.51.975l.075.135c1.755 3.36 3.435 6.84 5.025 10.275v.015l.03.06c.225.465.45.975.675 1.455l.03.075c.06.135.12.285.18.42l.03.075c.18.45.345.93.435 1.365.18.84.075 1.605-.285 2.235z"/>
+                                </svg>
+                            </span>
+                            <span class="guest-experiences-verification-text">
+                                <span class="guest-experiences-verification-title">
+                                    Verified Guest Review on Airbnb
+                                    <span class="guest-experiences-verified-badge" aria-hidden="true">
+                                        <!-- Inline blue verified badge / tick -->
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M22.5 12c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 1.92 13.51 1 12 1s-2.816.92-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4C2.375 9.05 1.5 10.42 1.5 12s.875 2.95 2.148 3.6c-.154.435-.237.905-.237 1.4 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.495-.083-.965-.237-1.4C21.625 14.95 22.5 13.58 22.5 12zm-6.616-3.166l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"/>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <span class="guest-experiences-verification-source">Source: Airbnb</span>
+                            </span>
+                        </div>
+
+                        <div class="guest-experiences-stars" role="img" aria-label="Rated 5 out of 5 stars">
+                            <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.401 8.177L12 18.896l-7.335 3.866 1.401-8.177L.132 9.211l8.2-1.193z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.401 8.177L12 18.896l-7.335 3.866 1.401-8.177L.132 9.211l8.2-1.193z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.401 8.177L12 18.896l-7.335 3.866 1.401-8.177L.132 9.211l8.2-1.193z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.401 8.177L12 18.896l-7.335 3.866 1.401-8.177L.132 9.211l8.2-1.193z"/></svg>
+                            <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.401 8.177L12 18.896l-7.335 3.866 1.401-8.177L.132 9.211l8.2-1.193z"/></svg>
+                        </div>
+
+                        <span class="guest-experiences-quote" aria-hidden="true">&ldquo;</span>
+
+                        <p class="guest-experiences-review-text">Was it a dream?!?! All our 17 guests agreed this place was unreal and said the pictures don&rsquo;t do it justice, it&rsquo;s even better than the listing! The house was spotless, full of character &amp; warmth. HUGE, so no compromise on space or quality interiors. It had all the mod cons plus all the essentials you&rsquo;d expect from a 5 star stay! Louise&rsquo;s team went above and beyond &mdash; so communicative &amp; simply the best. A magical weekend, we&rsquo;re already planning our return stay (and maybe a Christmas one too!). Cannot recommend this beautiful home more highly! Thank you so much! Xx</p>
+
+                        <hr class="guest-experiences-divider">
+
+                        <div class="guest-experiences-guest">
+                            <!-- Replace this with Victoria's final Airbnb review avatar/image when ready. -->
+                            <img
+                                src="assets/images/reviews/Vic.png"
+                                onerror="this.onerror=null;this.src='assets/images/reviews/GuestReview4.png';"
+                                alt="Photo of Victoria, a verified Airbnb guest"
+                                class="guest-experiences-avatar">
+                            <span class="guest-experiences-guest-meta">
+                                <span class="guest-experiences-guest-name">Victoria</span>
+                                <span class="guest-experiences-guest-date">May 2024</span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT: intro above framed rotating image gallery -->
+                    <div class="guest-experiences-feature js-reveal stagger-2">
+                        <!-- Section intro -->
+                        <div class="guest-experiences-intro">
+                            <span class="oldrectory-rule" aria-hidden="true"></span>
+                            <h2 id="oldrectory-guest-experiences-title" class="oldrectory-heading">Guest Experiences</h2>
+                            <p class="oldrectory-paragraph">From special celebrations to peaceful getaways, our guests love the memories they make at The Old Rectory &mdash; and we love welcoming them back.</p>
+                        </div>
+
+                        <!-- Framed rotating image gallery (right column, below intro) -->
+                        <div class="guest-experiences-media">
+                            <div class="oldrectory-frame">
+                                <div class="guest-experiences-gallery">
+                                    <!-- ============================================================
+                                         REPLACEMENT PLACEHOLDERS
+                                         Replace these three image paths with the final Guest
+                                         Experience photos when ready. Each has a safe onerror
+                                         fallback to an existing gallery image.
+                                         ============================================================ -->
+                                    <img
+                                        src="assets/images/guest-experiences/Living-room.jpeg"
+                                        onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                                        alt="Guests gathered together in the main living room at The Old Rectory"
+                                        class="guest-experiences-slide">
+                                    <!-- Replacement placeholder 2 -->
+                                    <img
+                                        src="assets/images/guest-experiences/kitchen-old-rectory.jpeg"
+                                        onerror="this.onerror=null;this.src='assets/images/GCG-36.jpg';"
+                                        alt="Friends celebrating around the dining table at The Old Rectory"
+                                        class="guest-experiences-slide">
+                                    <!-- Replacement placeholder 3 -->
+                                    <img
+                                        src="assets/images/guest-experiences/nightjaq.jpeg"
+                                        onerror="this.onerror=null;this.src='assets/images/GCG-7.jpg';"
+                                        alt="A relaxed family moment enjoying the grounds of The Old Rectory"
+                                        class="guest-experiences-slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             INSIDE OLD RECTORY
+             (sits below Guest Experiences with a modest breathing gap)
+             ============================================================ -->
+        <section class="oldrectory-inside js-reveal" aria-labelledby="oldrectory-inside-title">
+            <div class="container oldrectory-inside-grid">
+
+                <!-- LEFT: editorial text -->
+                <div class="oldrectory-inside-content js-reveal stagger-1">
+                    <span class="oldrectory-rule" aria-hidden="true"></span>
+                    <h2 id="oldrectory-inside-title" class="oldrectory-heading">Inside Old Rectory</h2>
+                    <p class="oldrectory-paragraph">Inside, six individually designed ensuite bedrooms each offer privacy and comfort. Two well-equipped kitchens make group stays easy, whether you&rsquo;re catering for a celebration dinner or enjoying lazy breakfasts together. The large communal areas are designed for coming together, with the added comfort of wood burners that make the space cosy, while still allowing plenty of room to spread out and unwind. A games room includes a pool table and a selection of board games, along with a range of creative activities to keep younger guests entertained.</p>
+                </div>
+
+                <!-- RIGHT: framed rotating image gallery -->
+                <div class="oldrectory-inside-media js-reveal stagger-2">
+                    <div class="oldrectory-frame">
+                        <div class="oldrectory-inside-gallery">
+                            <!-- ============================================================
+                                 REPLACEMENT PLACEHOLDERS
+                                 Replace these four image paths with the final Inside Old
+                                 Rectory photos when ready. Each has a safe onerror fallback
+                                 to an existing project image so the layout never breaks.
+                                 ============================================================ -->
+                            <img
+                                src="assets/images/inside-old-rectory/bedroom1-old.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/guest-experiences/kitchen-old-rectory.jpeg';"
+                                alt="One of the two well-equipped kitchens inside The Old Rectory"
+                                class="oldrectory-inside-slide">
+                            <img
+                                src="assets/images/inside-old-rectory/kitchen2inside.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/old-rectory-fireplace.jpeg';"
+                                alt="A cosy communal living area with a wood burner inside The Old Rectory"
+                                class="oldrectory-inside-slide">
+                            <img
+                                src="assets/images/inside-old-rectory/pooltabe.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                                alt="One of the six individually designed ensuite bedrooms at The Old Rectory"
+                                class="oldrectory-inside-slide">
+                            <img
+                                src="assets/images/inside-old-rectory/loungearea.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-7.jpg';"
+                                alt="The games room with a pool table and activities for younger guests at The Old Rectory"
+                                class="oldrectory-inside-slide">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================================
+             STEP OUTSIDE — full-width cinematic image banner
+             Sits after Inside Old Rectory, before the Outside section.
+             ============================================================ -->
+        <section class="oldrectory-step-outside js-reveal" aria-labelledby="oldrectory-step-outside-title">
+            <!-- Full-bleed background image. Replace the src with the final
+                 grounds photo when ready; onerror falls back to a safe
+                 existing project image so the layout never breaks. -->
+            <img
+                src="assets/images/outside-old-rectory/step-out.jpeg"
+                onerror="this.onerror=null;this.src='assets/images/GCG-36.jpg';"
+                alt="The grounds and gardens of The Old Rectory at dusk"
+                class="oldrectory-step-outside-bg">
+            <div class="oldrectory-step-outside-overlay" aria-hidden="true"></div>
+
+            <div class="oldrectory-step-outside-content">
+                <h2 id="oldrectory-step-outside-title" class="oldrectory-step-outside-title">Step Outside</h2>
+                <p class="oldrectory-step-outside-sub">Into the grounds of Old Rectory</p>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             OUTSIDE OLD RECTORY
+             Two-column editorial section: framed rotating gallery (left)
+             + editorial text (right). Mirrors the Inside Old Rectory style.
+             ============================================================ -->
+        <section class="oldrectory-outside js-reveal" aria-labelledby="oldrectory-outside-title">
+            <div class="container oldrectory-outside-grid">
+
+                <!-- LEFT: framed rotating image gallery -->
+                <div class="oldrectory-outside-media js-reveal stagger-1">
+                    <div class="oldrectory-frame">
+                        <div class="oldrectory-outside-gallery">
+                            <!-- ============================================================
+                                 REPLACEMENT PLACEHOLDERS
+                                 Replace these four image paths with the final Outside Old
+                                 Rectory photos when ready. Each has a safe onerror fallback
+                                 to an existing project image so the layout never breaks.
+                                 ============================================================ -->
+                            <img
+                                src="assets/images/outside-old-rectory/outside-one.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                                alt="The heated outdoor salt-water pool and sun deck at The Old Rectory"
+                                class="oldrectory-outside-slide">
+                            <img
+                                src="assets/images/outside-old-rectory/outside-two.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-36.jpg';"
+                                alt="Landscaped cottage gardens and lawns in the grounds of The Old Rectory"
+                                class="oldrectory-outside-slide">
+                            <img
+                                src="assets/images/outside-old-rectory/outside-03.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-7.jpg';"
+                                alt="An outdoor gathering and dining space surrounded by mature trees"
+                                class="oldrectory-outside-slide">
+                            <img
+                                src="assets/images/outside-old-rectory/outside-three.jpeg"
+                                onerror="this.onerror=null;this.src='assets/images/old-rectory.jpeg';"
+                                alt="A calm, private corner of the grounds for relaxing on a summer evening"
+                                class="oldrectory-outside-slide">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: editorial text -->
+                <div class="oldrectory-outside-content js-reveal stagger-2">
+                    <span class="oldrectory-rule" aria-hidden="true"></span>
+                    <h2 id="oldrectory-outside-title" class="oldrectory-heading">Outside Old Rectory</h2>
+                    <p class="oldrectory-paragraph">Outside, the grounds are designed for enjoyment throughout the seasons. A heated outdoor salt-water pool sits at the heart of the outdoor experience, surrounded by a sun deck, lawns and landscaped cottage gardens. Mature trees create a sense of privacy and calm, while open gathering spaces give guests room to unwind, dine outdoors and enjoy long summer evenings.</p>
+                    <p class="oldrectory-paragraph">The property also includes private parking, with considered outdoor spaces designed to make group stays feel easy, relaxed and memorable.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ============================================================
+             ELEVATE YOUR STAY
+             Two-column editorial section beneath Outside Old Rectory.
+             Editorial text + bespoke service icons (left) and a single
+             framed image (right). Reuses .oldrectory-rule /
+             .oldrectory-heading / .oldrectory-paragraph / .oldrectory-frame
+             so typography and framing stay consistent with the page.
+             ============================================================ -->
+        <section class="oldrectory-elevate js-reveal" aria-labelledby="oldrectory-elevate-title">
+            <div class="container oldrectory-elevate-grid">
+
+                <!-- LEFT: editorial text + bespoke service icons -->
+                <div class="oldrectory-elevate-content js-reveal stagger-1">
+                    <span class="oldrectory-rule" aria-hidden="true"></span>
+                    <h2 id="oldrectory-elevate-title" class="oldrectory-heading">Elevate Your Stay</h2>
+                    <p class="oldrectory-paragraph">To make your stay even more seamless, we can arrange a range of thoughtful services tailored to your needs, including catering, housekeeping, babysitting, and massage or beauty treatments. From simple pre-prepared meals delivered ready for the Aga to fully catered five-course dining experiences in the house, every detail can be arranged so your stay feels as relaxed or as elevated as you choose.</p>
+
+                    <ul class="oldrectory-elevate-services" role="list">
+                        <li class="oldrectory-elevate-service">
+                            <span class="oldrectory-elevate-service-icon" aria-hidden="true">
+                                <!-- Catering — serving cloche -->
+                                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 35h36"/>
+                                    <path d="M9 35a15 15 0 0 1 30 0"/>
+                                    <path d="M24 20v-3"/>
+                                    <circle cx="24" cy="14.5" r="1.8"/>
+                                </svg>
+                            </span>
+                            <span class="oldrectory-elevate-service-label">Catering</span>
+                        </li>
+
+                        <li class="oldrectory-elevate-service">
+                            <span class="oldrectory-elevate-service-icon" aria-hidden="true">
+                                <!-- Housekeeping — house with broom -->
+                                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 23 24 11l15 12"/>
+                                    <path d="M13 21v15h22V21"/>
+                                    <path d="M30 36v-7l4-2"/>
+                                    <path d="M34 27l2.5 4.5-4.5 1"/>
+                                </svg>
+                            </span>
+                            <span class="oldrectory-elevate-service-label">Housekeeping</span>
+                        </li>
+
+                        <li class="oldrectory-elevate-service">
+                            <span class="oldrectory-elevate-service-icon" aria-hidden="true">
+                                <!-- Babysitting — teddy bear -->
+                                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16.5" cy="13" r="3.5"/>
+                                    <circle cx="31.5" cy="13" r="3.5"/>
+                                    <circle cx="24" cy="23" r="9"/>
+                                    <circle cx="21" cy="21.5" r="0.9"/>
+                                    <circle cx="27" cy="21.5" r="0.9"/>
+                                    <path d="M22 25.5c1.3 1 2.7 1 4 0"/>
+                                    <path d="M16.5 31c-2 1.7-3 4.5-2.3 6.5M31.5 31c2 1.7 3 4.5 2.3 6.5"/>
+                                    <path d="M18 38c2.5 1 9.5 1 12 0"/>
+                                </svg>
+                            </span>
+                            <span class="oldrectory-elevate-service-label">Babysitting</span>
+                        </li>
+
+                        <li class="oldrectory-elevate-service">
+                            <span class="oldrectory-elevate-service-icon" aria-hidden="true">
+                                <!-- Massage &amp; Beauty — lotus flower -->
+                                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 13c2.6 3.6 2.6 9.4 0 13.5-2.6-4.1-2.6-9.9 0-13.5Z"/>
+                                    <path d="M24 26.5c-3.2-3.6-8.2-4.6-12.2-3 1 5.1 6.1 8.1 12.2 6"/>
+                                    <path d="M24 26.5c3.2-3.6 8.2-4.6 12.2-3-1 5.1-6.1 8.1-12.2 6"/>
+                                    <path d="M11.8 23.5c-2 1-3.3 3-3.3 5.1 4.1 3 10.2 2.8 15.5-2.1M36.2 23.5c2 1 3.3 3 3.3 5.1-4.1 3-10.2 2.8-15.5-2.1"/>
+                                </svg>
+                            </span>
+                            <span class="oldrectory-elevate-service-label">Massage &amp; Beauty</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- RIGHT: single framed image (one image only — no slider/gallery) -->
+                <div class="oldrectory-elevate-media js-reveal stagger-2">
+                    <div class="oldrectory-frame">
+                        <figure class="oldrectory-elevate-figure">
+                            <!-- ============================================================
+                                 REPLACEMENT PLACEHOLDER
+                                 Replace this single image path with the final Elevate Your
+                                 Stay photo when ready. The onerror fallback points to an
+                                 existing project image so the layout never breaks.
+                                 ============================================================ -->
+                            <img
+                                src="assets/images/elevate-your-stay/chefimage.png"
+                                onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                                alt="A bespoke catered dining experience being plated at The Old Rectory"
+                                class="oldrectory-elevate-img">
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================================
+             INTERESTED IN STAYING? — BOOKING CTA
+             Luxury split layout placed directly beneath Elevate Your Stay.
+             Left: large lifestyle/property image cropped to fill its half.
+             Right: warm cream content area with eyebrow, decorative divider,
+             serif heading, body copy and a single Airbnb-style booking button.
+             ============================================================ -->
+        <section class="oldrectory-stay-cta js-reveal" aria-labelledby="oldrectory-stay-cta-title">
+
+            <!-- LEFT: full-bleed lifestyle/property image -->
+            <div class="oldrectory-stay-cta__image js-reveal stagger-1">
+                <img
+                    src="assets/images/endimage.jpeg"
+                    onerror="this.onerror=null;this.src='assets/images/GCG-15.jpg';"
+                    alt="The Old Rectory luxury property and grounds">
+            </div>
+
+            <!-- RIGHT: warm cream content area -->
+            <div class="oldrectory-stay-cta__content js-reveal stagger-2">
+                <span class="oldrectory-stay-cta__eyebrow">Ready to escape?</span>
+
+                <div class="oldrectory-stay-cta__divider" aria-hidden="true">
+                    <span class="oldrectory-stay-cta__divider-line"></span>
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+                        <path d="M12 2v20"></path>
+                        <path d="M12 12A4.5 4.5 0 0 0 7.5 7.5"></path>
+                        <path d="M12 12a4.5 4.5 0 0 1 4.5 4.5"></path>
+                    </svg>
+                    <span class="oldrectory-stay-cta__divider-line"></span>
+                </div>
+
+                <h2 id="oldrectory-stay-cta-title" class="oldrectory-stay-cta__title">Interested in staying?</h2>
+
+                <p class="oldrectory-stay-cta__text">Discover more about the property, check availability, and book your stay directly on Airbnb for the best rates and secure booking.</p>
+
+                <a
+                    href="https://www.airbnb.co.uk/rooms/844637034900788827"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="oldrectory-stay-cta__button">
+                    <svg class="oldrectory-stay-cta__button-icon" viewBox="0 0 32 32" width="22" height="22" fill="currentColor" aria-hidden="true" focusable="false">
+                        <path d="M16 1c-1.7 0-3.1 1-4 2.8-.4.8-1.6 3.2-3.4 7.1-1.8 3.9-2.9 6.2-3.2 7C4.4 21 4 22.6 4 24c0 1.9.7 3.5 2 4.7 1.3 1.2 2.9 1.8 4.7 1.8 1 0 2-.2 3-.7 1-.5 1.8-1.1 2.3-1.7.5.6 1.3 1.2 2.3 1.7 1 .5 2 .7 3 .7 1.8 0 3.4-.6 4.7-1.8 1.3-1.2 2-2.8 2-4.7 0-1.4-.4-3-1.4-5.1-.3-.8-1.4-3.1-3.2-7-1.8-3.9-2.9-6.3-3.4-7.1C19.1 2 17.7 1 16 1zm0 2.2c.9 0 1.6.5 2.1 1.6.4.7 1.5 3 3.3 7 1.7 3.7 2.8 6 3.1 6.8.8 1.8 1.2 3.1 1.2 4.2 0 1.3-.4 2.3-1.3 3.1-.9.8-1.9 1.2-3.1 1.2-.8 0-1.6-.2-2.4-.6-.8-.5-1.4-1-1.7-1.4.9-1.1 1.6-2.1 2-3 .5-1 .7-1.9.7-2.7 0-1.2-.4-2.2-1.2-3-.8-.8-1.8-1.2-3-1.2s-2.2.4-3 1.2c-.8.8-1.2 1.8-1.2 3 0 .8.2 1.7.7 2.7.4.9 1.1 1.9 2 3-.3.4-.9.9-1.7 1.4-.8.4-1.6.6-2.4.6-1.2 0-2.2-.4-3.1-1.2-.9-.8-1.3-1.8-1.3-3.1 0-1.1.4-2.4 1.2-4.2.3-.8 1.4-3.1 3.1-6.8 1.8-4 2.9-6.3 3.3-7 .5-1.1 1.2-1.6 2.1-1.6zm0 11.3c.6 0 1.1.2 1.5.6.4.4.6.9.6 1.5 0 .5-.2 1.1-.5 1.8-.4.8-.9 1.5-1.6 2.4-.7-.9-1.2-1.6-1.6-2.4-.3-.7-.5-1.3-.5-1.8 0-.6.2-1.1.6-1.5.4-.4.9-.6 1.5-.6z"></path>
+                    </svg>
+                    <span>VIEW ON AIRBNB</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="footer bg-olive text-white js-reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.png" alt="Holt Accommodation Logo" class="footer-logo">
+                    <p class="footer-desc">Curated stays for teams and travellers. Workstays, relocations and luxury retreats, managed with care.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
+                        <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="meettheteam.html">Meet The Team</a></li>
+                        <li><a href="staywithus.html">Stay With Us</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contactus.html" class="smooth-scroll">Contact Us</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li>+44 7944 406 722</li>
+                        <li>admin@holtaccommodation.co.uk</li>
+                        <li>Dorset, England</li>
+                        <li>Mon to Fri, 9am to 5pm</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" id="enquire">
+                    <h4 class="footer-heading">Enquire Now</h4>
+                    <p class="footer-text">Let us create the perfect stay for your team or your getaway.</p>
+                    <a href="contactus.html" class="btn btn-terracotta btn-full footer-enquire-btn btn-pan-hover"><span>Send An Enquiry</span></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Holt Accommodation. All rights reserved.</p>
+                <p class="footer-legal">
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms &amp; Conditions</a> |
+                    <a href="#">Cookies</a>
+                </p>
+                <p>Atomic Build Digital</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
